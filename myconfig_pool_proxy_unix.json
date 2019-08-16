@@ -1,0 +1,17 @@
+{
+	"masterConfig": {
+		"host": "/cloudsql/myproject:us-central1:myinstance",
+		"user": "sqluser",
+		"password": "use-a-good-password"
+	},
+	"slaveConfig_1": {
+		"host": "/cloudsql/myproject:us-central1:myinstance-failover",
+		"user": "sqluser",
+		"password": "use-a-good-password"
+	},
+	"slaveConfig_2": {
+		"host": "/cloudsql/myproject:us-central1:myinstance-replica",
+		"user": "sqluser",
+		"password": "use-a-good-password"
+	}
+}

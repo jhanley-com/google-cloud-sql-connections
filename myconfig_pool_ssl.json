@@ -1,0 +1,35 @@
+{
+	"masterConfig": {
+		"host": "34.66.22.101",
+		"port": "3306",
+		"user": "sqluser",
+		"password": "use-a-good-password",
+		"ssl": {
+			"ca": "master/server-ca.pem",
+			"key": "master/client-key.pem",
+			"cert": "master/client-cert.pem"
+		}
+	},
+	"slaveConfig_1": {
+		"host": "34.66.22.102",
+		"port": "3306",
+		"user": "sqluser",
+		"password": "use-a-good-password",
+		"ssl": {
+			"ca": "failover/server-ca.pem",
+			"key": "failover/client-key.pem",
+			"cert": "failover/client-cert.pem"
+		}
+	},
+	"slaveConfig_2": {
+		"host": "34.66.22.103",
+		"port": "3306",
+		"user": "sqluser",
+		"password": "use-a-good-password",
+		"ssl": {
+			"ca": "slave/server-ca.pem",
+			"key": "slave/client-key.pem",
+			"cert": "slave/client-cert.pem"
+		}
+	}
+}

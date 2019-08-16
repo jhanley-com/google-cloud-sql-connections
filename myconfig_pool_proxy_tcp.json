@@ -1,0 +1,20 @@
+{
+	"masterConfig": {
+		"host": "127.0.0.1",
+		"port": "3306",
+		"user": "sqluser",
+		"password": "use-a-good-password"
+	},
+	"slaveConfig_1": {
+		"host": "127.0.0.1",
+		"port": "3307",
+		"user": "sqluser",
+		"password": "use-a-good-password"
+	},
+	"slaveConfig_2": {
+		"host": "127.0.0.1",
+		"port": "3308",
+		"user": "sqluser",
+		"password": "use-a-good-password"
+	}
+}
